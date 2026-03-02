@@ -1,0 +1,137 @@
+        body{
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .Header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .Header h1{
+            font-size: 7rem;
+            font-style: oblique;
+            font-weight: 400;
+        }
+
+        .Header p{
+            font-size: 25px;
+            font-style: oblique;
+        }
+
+        .Heroes{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .Articles{
+            width: 350px;
+        }
+
+        .Articles h3{
+            font-weight: 300;
+            font-size: 3rem;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        .Articles p{
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            width: 300px;
+            font-style: italic;
+        }
+
+        .Articles li{
+            font-size: 18px;
+        }
+
+        .Stories{
+            width: 350px;
+        }
+
+        .Stories h3{
+            font-weight: 300;
+            font-size: 3rem;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        .Stories p{
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            width: 300px;
+            font-style: italic;
+        }
+
+        .Stories li{
+            font-size: 18px;
+        }
+
+        .My-View{
+            width: 350px;
+        }
+
+        .My-View h3{
+            font-weight: 300;
+            font-size: 3rem;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        .My-View p{
+            font-size: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            width: 300px;
+            font-style: italic;
+        }
+
+        .My-View li{
+            font-size: 18px;
+        }
+
+        .Stuff h2{
+            font-weight: 400;
+            font-size: 5rem;
+            text-align: center;
+        }
+
+        .Writings{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .Technology{
+            width: 700px;
+        }
+
+        .Eggs{
+            width: 700px;
+        }
+
+        .Health{
+            width: 700px;
+        }
+
+        img{
+            margin-bottom: 30px;
+            margin-top: 30px;
+            border: 2px solid white;
+        }
+
+        h3{
+            color: black;
+            font-weight: 300;
+        }
+
+
+
