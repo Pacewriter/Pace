@@ -1,137 +1,123 @@
-        body{
-            background-color: white;
-            font-family: 'Times New Roman', Times, serif;
-        }
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
 
-        .Header{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 20px;
-        }
 
-        .Header h1{
-            font-size: 7rem;
-            font-style: oblique;
-            font-weight: 400;
-        }
 
-        .Header p{
-            font-size: 25px;
-            font-style: oblique;
-        }
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
 
-        .Heroes{
-            display: flex;
-            justify-content: space-between;
-            margin-top: 40px;
-        }
+.Header h1{
+    font-size: clamp(2.5rem, 8vw, 7rem);
+    font-style: oblique;
+    font-weight: 400;
+}
 
-        .Articles{
-            width: 350px;
-        }
+.Header p{
+    font-size: clamp(1rem, 3vw, 25px);
+    font-style: oblique;
+}
 
-        .Articles h3{
-            font-weight: 300;
-            font-size: 3rem;
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-            width: 300px;
-        }
+.Heroes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
 
-        .Articles p{
-            font-size: 20px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-            width: 300px;
-            font-style: italic;
-        }
+.Articles,
+.Stories,
+.My-View{
+    width: min(100%, 350px);
+}
 
-        .Articles li{
-            font-size: 18px;
-        }
+.Articles h3,
+.Stories h3,
+.My-View h3{
+    font-weight: 300;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
 
-        .Stories{
-            width: 350px;
-        }
+.Articles p,
+.Stories p,
+.My-View p{
+    font-size: clamp(1rem, 2.5vw, 20px);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-style: italic;
+}
 
-        .Stories h3{
-            font-weight: 300;
-            font-size: 3rem;
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-            width: 300px;
-        }
+.Articles li,
+.Stories li,
+.My-View li{
+    font-size: clamp(0.9rem, 2vw, 18px);
+}
 
-        .Stories p{
-            font-size: 20px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-            width: 300px;
-            font-style: italic;
-        }
 
-        .Stories li{
-            font-size: 18px;
-        }
 
-        .My-View{
-            width: 350px;
-        }
+.Stuff h2{
+    font-weight: 400;
+    font-size: clamp(2rem, 6vw, 5rem);
+    text-align: center;
+}
 
-        .My-View h3{
-            font-weight: 300;
-            font-size: 3rem;
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-            width: 300px;
-        }
 
-        .My-View p{
-            font-size: 20px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-            width: 300px;
-            font-style: italic;
-        }
 
-        .My-View li{
-            font-size: 18px;
-        }
+.Writings{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
-        .Stuff h2{
-            font-weight: 400;
-            font-size: 5rem;
-            text-align: center;
-        }
+.Technology,
+.Eggs,
+.Health{
+    width: min(100%, 400px);
+}
 
-        .Writings{
-            display: flex;
-            justify-content: space-between;
-        }
 
-        .Technology{
-            width: 700px;
-        }
 
-        .Eggs{
-            width: 700px;
-        }
+img{
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    display: block;
+}
 
-        .Health{
-            width: 700px;
-        }
 
-        img{
-            margin-bottom: 30px;
-            margin-top: 30px;
-            border: 2px solid white;
-        }
+h3{
+    color: black;
+    font-weight: 300;
+}
 
-        h3{
-            color: black;
-            font-weight: 300;
-        }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.Technology,.Eggs,.Health{
+    width: min(100%, 400px);
+    transition: transform 0.3s ease;
+}
+
+.Technology :hover, .Eggs :hover, .Health :hover{
+    transform: translateX(-5px);
+}
 
 
